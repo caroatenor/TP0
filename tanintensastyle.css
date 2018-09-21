@@ -1,0 +1,102 @@
+
+.TODO {
+  width: 100%;
+  text-align: center;
+}
+
+.foto {
+   width: 90%;
+   text-align: center;
+   display: block;
+}
+
+.foto img {
+  width: 100%;
+}
+
+.text {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.email {
+  display: inline-block;
+  text-align: center;
+}
+
+.email1 {
+  padding: 6px 3px;
+  width: 200px;
+  border-color: black;
+  color: grey;
+  border-width: thin;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: pink;
+  border-radius: 5px;
+  color: white;
+  padding: 6px 20px;
+  border: 1px solid pink;
+}
+
+.textos {
+  text-align: center;
+
+}
+.redes {
+  color: pink;
+  font-size: 30px;
+  text-align: right;
+  margin-top: 20px;
+  width: 98%;
+}
+
+.fa-instagram {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.derechos {
+  text-align: center;
+  margin-top: 200px;
+
+}
+a {
+  color: pink;
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+
+  .text {
+    display: block;
+    text-align: center;
+
+  }
+
+  .email {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .redes {
+    display: block;
+    text-align: center;
+  }
+
+
+
+  .derechos {
+    display: block;
+    text-align: center;
+  }
+
+}
